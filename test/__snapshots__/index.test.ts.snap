@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`jsxIsPropTransformPlugin 1. jsxIsPropTransformPlugin: 1. jsxIsPropTransformPlugin 1`] = `
+
+<foo is={Bar} />
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+<Bar />;
+
+`;
+
+exports[`jsxIsPropTransformPlugin 2. jsxIsPropTransformPlugin: 2. jsxIsPropTransformPlugin 1`] = `
+
+<foo is={Bar} hello={world} />
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+<Bar hello={world} />;
+
+`;
