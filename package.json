@@ -9,6 +9,7 @@
   ],
   "scripts": {
     "build": "rollup --config rollup.config.ts --configPlugin @rollup/plugin-typescript",
+    "publish": "npm run build && npm publish",
     "test": "jest"
   },
   "keywords": [],
